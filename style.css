@@ -1,0 +1,71 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.header-image {
+  background: url(./images/heroimage.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contact_form {
+  text-align: center;
+}
+.contact_input {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.5rem;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+}
+
+.contact_form button {
+  background-color: cadetblue;
+  width: 20%;
+  padding: 0.25rem;
+  border-radius: 0.7rem;
+  margin-top: 11px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.product {
+  margin-top: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-item-list {
+  float: left;
+  width: 32.33%;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-item-list {
+    width: 100%;
+    float: none;
+  }
+}
